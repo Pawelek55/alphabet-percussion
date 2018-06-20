@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    background-image: url(../img/header-background.jpg);
+}
+
+*{
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 58%;
+}
+.box{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: all .07s;
+    border: 3px solid black;
+    margin: 0 10px;
+    color: white;
+}
+
+kbd{
+    font-size: 4em;
+    display: block;
+}
+
+span{
+    font-family: monospace;
+}
+.playing{
+    transform: scale(1.1);
+    border-color: yellow;
+    box-shadow: 10px;
+    
+}
